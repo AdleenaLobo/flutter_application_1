@@ -17,3 +17,8 @@ class RecipeWithDetails {
     return 'RecipeWithDetails{id: $id, title: $title, image: $image, ingredients: $ingredients, instructions: $instructions}';
   }
 }
+
+
+
+
+// String = "salt chicken cheese pepper"

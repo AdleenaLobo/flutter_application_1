@@ -47,11 +47,11 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(""),
       ),
+      floatingActionButton: FloatingActionButton(onPressed: fetchData(_textFieldController.text), child: Icon(Icons.search )),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: TextField(
           controller: _textFieldController,
-          onChanged: fetchData,
           decoration: InputDecoration(
             hintText: 'Enter some text here',
           ),
